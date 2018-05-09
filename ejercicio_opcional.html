@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body,html{
+			margin: 0;
+		}
+		.barra_inicio{
+			position: absolute;
+			width: 100%;
+			background-color: black;
+			color: white;
+			height: 50px;
+			font-size: 130%;
+		}
+		.relativo {
+			position: relative;
+			
+		}
+		.titulo{
+			bottom: 5px;
+			left: 10px;
+
+		}
+		.subtitulo{
+			top: 0px;
+			left: 10px;
+
+		}
+		.barra_lateral{
+			background-color: #EDEDEE;
+			width: 25%;
+			height: 200px;
+			color: black;
+			font-size: 130%;
+			position: absolute;
+			top: 50px;
+			left: 0px;
+			
+		}
+
+		.contenido{
+			background-color: white;
+			width: 75%;
+			height: 200px;
+			color: black;
+			font-size: 130%;
+			float: left;
+			position: absolute;
+			padding: 0 10px;
+			right: 0px;
+			top: 50px;
+			box-sizing: border-box;
+
+		}
+		.barra_inferior{
+			background-color: #A9A9A9;
+			width: 100%;
+			height: 50px;
+			position: absolute;
+			top: 250px;
+			color: white;
+		}
+
+		ul.ul1{
+			top: 0px;
+		}
+
+		ul.ul1 li{
+			font-size: 65%;
+			color: #54A9DD;
+			list
+		}
+
+		#cont2{
+			font-size: 75%;
+		}
+
+		#textinf{
+			text-align: center;
+		}
+
+	
+	</style>
+</head>
+<body>
+	<div class="barra_inicio">
+		<p class="titulo relativo">Titulo pagina</p>
+	</div>
+
+	<div style="clear: left;"></div>
+
+	<div class="barra_lateral">
+		<p class="subtitulo relativo">Menu</p>
+		<ul class="ul1 relativo">
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ul>
+	</div>
+
+	<div class="contenido">
+		<p>Sub-titulo</p>
+		<p id="cont2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<div style="clear: left;"></div>
+
+	<div class="barra_inferior">
+		<p id=textinf>© Todos los derechos reservados</p>
+	</div>
+
+
+
+
+</body>
+</html>
